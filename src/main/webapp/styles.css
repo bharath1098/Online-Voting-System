@@ -1,0 +1,251 @@
+@charset "UTF-8";
+body{
+	margin:0;
+	background-image : url("https://c8.alamy.com/comp/T19PBF/concept-of-indian-electionholding-sticker-of-vote-for-better-indian-on-indian-flag-as-a-background-T19PBF.jpg");
+	background-repeat : no-repeat ;
+    background-size: 100%;
+}
+nav{
+	background-color:#CDFCF6;
+	font-size:35px;
+	color:black;
+	display:flex;
+	justify-content:right;
+	padding-top:15px;
+	padding-bottom:15px;
+	
+}
+nav a{ 
+	color:black;
+	padding-left : 15px;
+	padding-right:15px;
+}
+
+nav a:hover {
+ color: blue;
+}
+
+.form-container{
+	background-color:#BFACE0;
+	font-size:230%;
+	width:30%;
+	height:30%;
+	
+	display:flex;
+	justify-content:center;
+	margin-right:45%;
+	margin-left:1%;
+	margin-top:1%;
+	border-radius:30px;
+	padding-bottom:1%;
+	padding-top:0%;
+}
+.form-container input{
+	border-radius:12px;
+	width:70%;
+	height:6%;
+	margin-top:2%;
+	margin-bottom:3%;
+	margin-left:10%;
+	font-size:65%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:#F5EBE0;
+}
+
+.form-container button{
+	border-radius:12px;
+	width:70%;
+	height:10%;
+	padding-top:2%;
+	padding-bottom:7%;
+	margin-left:10%;
+	margin-bottom:3%;
+	font-size:65%;
+	background-color:#E1FFEE;
+	
+}
+
+.form-container  a{
+	padding-top:2%;
+	padding-bottom:7%;
+	margin-left:38%;
+	margin-top:10%;
+	font-size:70%;
+	color:black;
+}
+
+.form-container  a:hover {
+	color:blue;
+}
+
+.form-container label{
+	margin-left:30%;
+}
+
+ .about {
+	font-family :  Helvetica;
+	font-size:250%;
+	width: 100vx;
+    height: 85vh;
+    padding-left : 2.5%;
+    opacity: 0.9;
+    background-color:#FEFCF3;
+}
+ 
+ .about  p{
+	padding-top:2.5%;
+	font-weight:bold;
+}
+
+ .about  img{
+	width:30%;
+	height: 35%;
+	margin-right:2.5%;
+	margin-top:-3%;
+} 
+
+.contact{
+
+	font-size:230%;
+	width:30%;
+	height:22%;
+	
+	display:flex;
+	justify-content:center;
+	margin-right:45%;
+	margin-left:1%;
+	margin-top:1%;
+	border-radius:35px;
+	padding-bottom:1%;
+	padding-top:0%;
+	background-color:#F6F6C9;
+}
+
+.contact  input,textarea{
+	border-radius:12px;
+	width:75%;
+	height:2.5%;
+	margin-top:2%;
+	margin-bottom:3%;
+	margin-left:9%;
+	font-size:75%;
+	padding-top:2%;
+	padding-bottom:2%;
+	background-color:#5F9DF7;
+	}
+	
+	.contact  select{
+	border-radius:12px;
+	width:75%;
+	height:11%;
+	margin-top:2%;
+	margin-bottom:3%;
+	margin-left:9%;
+	font-size:75%;
+	padding-top:0%;
+	padding-bottom:2%;
+	color:black;
+	background-color:#5F9DF7;
+	}
+	
+.contact  button{
+	border-radius:12px;
+	width:75%;
+	height:9%;
+	margin-top:2%;
+	margin-bottom:3%;
+	margin-left:9%;
+	font-size:65%;
+	padding-top:1%;
+	padding-bottom:2%;
+	background-color:#5F9DF7;
+}
+
+.contact  label{
+padding-left:5%;
+margin-left:6%;
+ }
+.adminwelcome {
+	background-color:white;
+	font-size:250%;
+	width:30%;
+	height:200px;
+	
+	display:flex;
+	justify-content:center;
+	margin-right:45%;
+	margin-left:1%;
+	margin-top:1%;
+	border-radius:30px;
+	padding-bottom:8%;
+	padding-top:0px;
+}
+
+.adminwelcome  a{
+	padding-top:5px;
+	padding-bottom:30%;
+	padding-left:2.5%;
+	margin-left:5%;
+	margin-top:7%;
+	font-size:130%;
+	color:black;
+}
+
+.adminwelcome  a:hover {
+	color:blue;
+}
+
+.checkTable{
+	
+	background-color:#FFF7E9;
+	height:95vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:40px;
+	
+}
+
+.checkTable img{
+	
+	height:100px;
+	width:100px;
+	
+}
+ 
+ 
+ .checkTable td,th {
+	
+	padding:10px 60px;
+	
+}
+
+ .voted { 
+	background-color:white;
+	font-size:210%;
+	width:30%;
+	height:190px;
+	opacity:0.85;
+	display:flex;
+	justify-content:center;
+	margin-right:45%;
+	margin-left:1%;
+	margin-top:5%;
+	border-radius:35px;
+	padding-bottom:1%;
+	padding-top:3%;
+}
+
+.voted  a{
+	padding-top:0%;
+	padding-bottom:7%;
+	margin-left:35%;
+	margin-top:5%;
+	font-size:120%;
+	color:black;
+}
+
+.voted  a:hover {
+	color:blue;
+}
